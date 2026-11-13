@@ -2,7 +2,7 @@
 import os
 import shutil
 
-SRC = "entry.png"
+SRC = os.path.join(os.path.dirname(os.path.abspath(__file__)), "entry.png")
 OUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 
 
